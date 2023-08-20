@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GIF Examples</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .background {
+            background-color: #d4e2ea;
+        }
+        
+        .container {
+            /* display: flex; */
+            align-items: center;
+            height: 100vh;
+        }
+
+        .top-section {
+            padding: 20px;
+        }
+
+        .below-section {
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+        
+        h2 {
+            margin-top: 20px;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+        }
+        
+        p {
+            margin: 10px 0;
+        }
+        
+        button {
+            text-align: center;
+            background-color: #3498db;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <div class="top-section">
+                <h1>Project Examples and Simulations</h1>
+                
+                <h2>1. DWA Local Planner</h2>
+                <img src="/giffs/dwa.gif" alt="Dancing Cat GIF">
+                <p>This GIF depicts Dynamic Window Approach local planner</p>
+            </div>
+            
+            <div class="below-section">
+                <h2>2. Model Predictive Planner</h2>
+                <img src="giffs/mpc.gif" alt="Starry Night Sky GIF">
+                <p>This GIF depicts Non linear model predictive local planner</p>
+            </div>
+
+                <button onclick="openAnotherPage()">Go back</button>
+
+                <script>
+                    function openAnotherPage() {
+                        window.open("portfolio.html", "_blank");
+                    }
+                </script>
+        </div>
+    </div>
+</body>
+</html>

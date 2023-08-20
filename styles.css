@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .justified-text {
+    text-align: justify;
+  }
+
+  .background {
+    background-color: #d4e2ea;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    /* height: 100vh; */
+  }
+  
+  .left-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right-section {
+    flex: 1;
+    background-image: url('/imgs/robotik.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  .gif-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .gif-section img {
+    max-width: 100%;
+  }
+  
+  .video-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .video-section video {
+    max-width: 100%;
+  }
+
+  
+  .photo-section {
+      text-align: center;
+      padding: 28px;
+  }
+  
+  .photo-section img {
+  max-width: 100%;
+  }
+
+  .button-section1 {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .button1 {
+    flex: 1;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .button-section2 {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .button2 {
+    flex: 1;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .button-section3 {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .button3 {
+    flex: 1;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .background2 {
+    background-color: #6fa5c4;
+  }
+
+  .container2 {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+  }
