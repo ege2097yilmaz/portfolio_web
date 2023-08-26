@@ -5,6 +5,7 @@ body {
 
   .justified-text {
     text-align: justify;
+    padding: 6px;
   }
 
   .background {
@@ -15,12 +16,14 @@ body {
     display: flex;
     align-items: center;
     height: 100vh;
+    padding: 30px;
   }
 
   .buttons {
     display: flex;
     align-items: center;
-    /* height: 100vh; */
+    height: 10vh;
+    width: 10vh;
   }
   
   .left-section {
@@ -34,20 +37,30 @@ body {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    border-radius: 15px;
+    width: 20vh;
+    margin-right: 10px;
   }
   
   h1 {
     font-size: 2em;
+    padding: 5px;
   }
   
   h2 {
     font-size: 1.5em;
+    padding: 5px;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    padding: 5px;
   }
   
   ul {
     list-style-type: none;
-    padding: 0;
-  }
+    padding: 20px;
+    }
   
   ul li {
     margin-bottom: 10px;
@@ -69,6 +82,7 @@ body {
   
   .video-section video {
     max-width: 100%;
+    padding: 20px;
   }
 
   
@@ -78,7 +92,7 @@ body {
   }
   
   .photo-section img {
-  max-width: 100%;
+   max-width: 100%;
   }
 
   .button-section1 {
@@ -94,6 +108,7 @@ body {
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    margin-left: 50px;
   }
 
   .button-section2 {
@@ -127,11 +142,57 @@ body {
   }
 
   .background2 {
-    background-color: #6fa5c4;
+    background-color: #355161;
   }
-
-  .container2 {
-    display: flex;
+  
+  .circular-button {
+    display: inline-flex;
     align-items: center;
-    height: 50vh;
-  }
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #0077B5;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.circular-button:hover {
+    background-color: #00578B;
+    transform: scale(1.1);
+}
+
+#typing-text {
+  border-right: 2px solid #000; /* Cursor effect */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflow to simulate typing effect */
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container2 {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+textarea {
+  height: 100px;
+}
+
+button_contact {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
